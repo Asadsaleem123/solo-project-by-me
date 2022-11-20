@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+     Font-size: 18px;
+}
+.Container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 0 1em;
+}
+*{
+    box-sizing: border-box;
+}
+nav{
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em  0  1em;
+}
+img{
+    width: 100%;
+}
+.bar1, .bar2, .bar3 {
+    width: 20px;
+    height: 2px;
+    background-color:grey;
+    margin: 6px 0;
+  }
+  .logo{
+    width: 70px;
+  }
+  .humberger-menu{
+    width: 28px;
+  }
+  .working-container{
+     margin-top: 1em;
+     /* position: relative; */
+  }
+.working{
+    padding-left: 4em;
+  
+}
+.link-container{
+    background:linear-gradient(45deg,#1d3557,#415a77);
+    padding: 1.5em 0.3em;
+}
+
+h2{
+    margin-bottom: 0;
+}
+
+input,button{
+    width: 100%;
+}
+.card{
+    background-color: whitesmoke;
+    padding: 1em .5em 1em .5em;
+}
+.line{
+    width: 10px;
+    height: 60px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+.card-logo-container{
+    position: relative;
+    padding-top: 1em;
+    padding-right: 1em;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #1d3557;
+    right: 0;
+    left:0;
+    bottom: 0;
+    top:0;
+    margin:auto;
+   
+    
+    /* background-position: center;    */
+}
+.adjust{
+    top:30px
+}
+.card-logo{
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left:0;
+    top:0;
+    bottom:0
+  
+}
+.card-two{
+    margin-top: -2em;
+}
+.card-two h2{
+margin-top: 2em;
+}
+.boost-links{
+    margin-top: 3em;
+    padding: 2em 1em;
+    background:linear-gradient(35deg,#1d3557,#457b9d);
+    color: white;
+
+}
+.boost-links h2{
+    margin-bottom: 1em;
+}
+footer{
+    margin:0;
+    background-color: black;
+    color: white;
+    padding: 1em 3em;
+    font-size: 0.8rem;
+}
+p{
+    color: grey;
+}
+
+.icon-container{
+    margin-top: 3.5em;
+    display: flex;
+    gap: 15px;
+}
+.col{
+    width: 20px;
+    margin:0 auto;
+}
+.btn{
+border: none;
+padding: .5em 0;
+border-radius: 15px;
+padding: 0.5em 1em;
+}
+.btn-primary{
+    background-color:cyan;
+    color: white;
+    font-weight: 900;
+    text-shadow: 1px 1px 5px darkcyan;
+}
+.more-then-shorter-links{
+    margin-bottom: 3em;
+}
+.get-started-container{
+    width: 120px;
+    margin:0 auto;
+
+}
+.link-container,input,button{
+    margin-bottom: 1em;
+    padding: .5em;
+    border-radius: 5px;
+    border: none;
+}
+.link-container{
+    padding-top: 1.3em;
+}
+.advance-statistics{
+    margin-top: 3em;
+}
+.boost-links h2{
+    margin-bottom: 8px;
+}
+.open-menu{
+    background-color: #1d3557;
+    padding: 1em 1em;
+    position: absolute;
+    height: 57vh;
+    top: -200px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    display: none;
+}
