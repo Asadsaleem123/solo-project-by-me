@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="Container">
-        <nav>
+        <nav class="mobile-nav">
         <div>
             <img class="logo"  src="images/logo.svg" alt="logo" />
         </div>
@@ -20,10 +20,25 @@
           <div class="bar3"></div>
         </div>  
         </nav>
-        <div class="working-container">
+        <nav class="desktop-nav">
+           <ul>
+              <div class="col-one">
+                <li><img class="logo" src="images/logo.svg"></li>
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>Resourses</li>
+              </div>
+              <div class="col-two">
+                <li>Login</li>
+                 <li class="btn-primary btn-signup">Signup</li>
+              </div>
+           </ul>
+        </nav>
+        <div class="working-more-then-shorter-links">
+        <div class="working-container ">
            <img class="working"  src="images/illustration-working.svg" />
         </div>
-        <div class="more-then-shorter-links">
+        <div class="more-then-shorter-links order">
             <h2>More than just shoter links</h2>
             <p>build your brand recognition and get detailed insight on how your links are performing</p>
             <div class="get-started-container">
@@ -31,20 +46,21 @@
             </div>
             
         </div>
+    </div>
         <div class="link-container">
-            <input type="text"placeholder="shorter a link here">
-            <button class=" btn-primary">Shorten it!</button>
+            <input class="link-container-col-one" type="text"placeholder="shorter a link here">
+            <button class=" btn-primary link-container-col-two">Shorten it!</button>
         </div>
         <div class="advance-statistics">
             <h2>Advance statistics </h2>
             <p>Track how your links are performing across the web with our advance statistic dashboard</p>
         </div>
-        <div class="card-logo-container adjust">
-            <img class="card-logo" style="width: 30px;" src="images/icon-brand-recognition.svg"alt="brand recognition"/>
-        </div>
+     
         <div class="cards-container">
-            <div class="card-one card">
-                <img src=""/>
+            <div class="card card-one">
+                <div class="card-logo-container">
+                    <img class="card-logo" style="width: 30px;" src="images/icon-brand-recognition.svg"alt="brand recognition"/>
+                </div>
                 <h2>Brand Recognition</h2>
                 <p>Boost your brand recognition with each click Generic links don't means
                      a thing Branded links help intil confidence inyour content
@@ -53,10 +69,11 @@
             <div class="line">
 
             </div>
-            <div class="card-logo-container">
-                <img class="card-logo" style="width: 30px;" src="images/icon-detailed-records.svg"alt="brand recognition"/>
-            </div>
-            <div class="card-two card">  
+           
+            <div class="card card-two"> 
+                <div class="card-logo-container">
+                    <img class="card-logo" style="width: 30px;" src="images/icon-detailed-records.svg"alt="brand recognition"/>
+                </div> 
                     <h2>Brand Recognition</h2>
                     <p>Boost your brand recognition with each click Generic links don't means
                          a thing Branded links help intil confidence inyour content
@@ -65,10 +82,11 @@
             <div class="line">
 
             </div>
-            <div class="card-logo-container">
-                <img class="card-logo" style="width: 30px;" src="images/icon-fully-customizable.svg"alt="brand recognition"/>
-            </div>
-            <div class="card-two card">  
+          
+            <div class="card card-three">  
+                <div class="card-logo-container">
+                    <img class="card-logo" style="width: 30px;" src="images/icon-fully-customizable.svg"alt="brand recognition"/>
+                </div>
                 <h2>Brand Recognition</h2>
                 <p>Boost your brand recognition with each click Generic links don't means
                      a thing Branded links help intil confidence inyour content
@@ -85,20 +103,26 @@
         
     </div>
     <footer>
-        <h2 style="margin-bottom:2em">Shortly</h2>
-        <h3>Features</h3>
-        <p>Link shortening  </p>
-        <p>branded links</p>
-        <p>Analytics</p>
-        <h2 style="margin:0">Resources</h2>
-        <p>Blog</p>
-        <p>Developers</p>
-        <p>support</p>
-        <h2>Company</h2>
-        <p>About   </p>
-        <p>our teams</p>
-        <p>careers</p>
-        <p>contact</p>
+        <h2 class="mobile-version" style="margin-bottom:2em">Shortly</h2>
+        <div>
+            <h2>Features</h2>
+            <p>Link shortening  </p>
+            <p>branded links</p>
+            <p>Analytics</p>
+        </div>
+        <div>
+            <h2 >Resources</h2>
+            <p>Blog</p>
+            <p>Developers</p>
+            <p>support</p>
+        </div>
+        <div>
+            <h2>Company</h2>
+            <p>About   </p>
+            <p>our teams</p>
+            <p>careers</p>
+            <p>contact</p>
+        </div>
         <div class="icon-container">
                <img class="col" src="images/icon-facebook.svg">
                <img class="col"src="images/icon-pinterest.svg">

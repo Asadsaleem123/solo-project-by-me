@@ -7,14 +7,12 @@ body{
 .Container{
     width: 90%;
     margin: 0 auto;
-    max-width: 400px;
     padding: 0 1em;
 }
 *{
     box-sizing: border-box;
 }
 nav{
-    min-width: 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,11 +55,11 @@ input,button{
 }
 .card{
     background-color: whitesmoke;
-    padding: 1em .5em 1em .5em;
+    padding: 0 .5em 1em .5em;
 }
 .line{
     width: 10px;
-    height: 60px;
+    height: 100px;
     background-color: aqua;
     margin: 0 auto;
 }
@@ -76,7 +74,7 @@ input,button{
     right: 0;
     left:0;
     bottom: 0;
-    top:0;
+    top:-40px;
     margin:auto;
    
     
@@ -94,12 +92,7 @@ input,button{
     bottom:0
   
 }
-.card-two{
-    margin-top: -2em;
-}
-.card-two h2{
-margin-top: 2em;
-}
+
 .boost-links{
     margin-top: 3em;
     padding: 2em 1em;
@@ -160,7 +153,7 @@ padding: 0.5em 1em;
     padding-top: 1.3em;
 }
 .advance-statistics{
-    margin-top: 3em;
+    margin:5em 0 ;
 }
 .boost-links h2{
     margin-bottom: 8px;
@@ -176,4 +169,123 @@ padding: 0.5em 1em;
     left: 0;
     margin: auto;
     display: none;
+}
+.desktop-nav{
+    display: none;
+}
+.card h2{
+    margin-top: -30px;
+}
+@media (min-width:500px){
+    .Container{
+        width: 100%;
+        max-width: 1400px;
+    }
+    .cards-container{
+        display: flex;
+        gap:8px;
+        padding: 3em;
+        /* align-items: flex-end; */
+    }
+    .cards-container h2{
+        font-size: 1rem;
+        margin-top: 0;
+    }
+    .desktop-nav{
+        display: block; 
+    }
+    .col-one,.col-two{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .col-one{
+        width: 70%;
+    }
+    .col-two{
+        width: 25%;
+    }
+    .mobile-nav{
+        display: none;
+    }
+
+    ul{
+        padding-left: 0;
+        margin-top:0;
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+    }
+    .logo{
+        margin-top: 0.3em;
+    }
+    .working-more-then-shorter-links{
+        margin-bottom: 2em;
+        display: flex;
+        align-items: center;
+    }
+    .order{
+        order: -1;
+    }
+    .link-container{
+        padding-left:  1em;
+        padding-right:1em ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .link-container-col-one{
+        width: 73%;
+    }
+    .link-container-col-two{
+        width: 25%;
+    }
+    .advance-statistics{
+        padding-left: 7em;
+        padding-right: 7em;
+    }
+    .line{
+        height: 17px;
+        transform: rotate(90deg);
+        margin-top: 3em;
+    }
+   .card h2{
+    margin-top: -15px;
+   }
+    .card p{
+        margin-top: 5px;
+        font-size: .8rem;
+        line-height: 1.6;
+    }
+    .card-logo-container{
+        width: 45px;
+        height: 45px;
+        top:-30px;
+    }
+    .card-one{
+        margin-top: -30px;
+    }
+    .card-three{
+        margin-bottom: -1.5em;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile-version{
+        display: none;
+    }
+    footer{
+        display: flex;
+        gap:50px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .icon-container{
+        margin-top: 16px;
+    }
+    .btn-signup{
+        padding: 0.3em 1em;
+        border-radius: 5px;
+    }
 }
